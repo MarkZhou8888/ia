@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class='jumbotron'>
+    <h1 class="display-4">SAT</h1>
+    <p class="lead">This is Barron 3500 SAT </p>
+    <hr class="my-4">
+    <div class="text-center">
+      <img src="https://thumbs.gfycat.com/IckyShadowyIvorybilledwoodpecker-max-1mb.gif" class="rounded" alt="Responsive image">
+    </div>
+    <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/facts" role="button">practice</a>
+    <a class="btn btn-primary btn-lg" href="/form" role="button">pictures</a>
+    <a class="btn btn-primary btn-lg" href="/form2" role="button">test</a>
+    </p>
+  <!-- Content here -->
+  </div>
+</div>
+
+<div class="container">
+  <div class='jumbotron'>
+    <form>
+    <div class="form-row">
+      <div class="col-7">
+        <input type="text" class="form-control" placeholder="City">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="State">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Zip">
+      </div>
+    </div>
+  </form>
+  <a class="btn btn-primary btn-lg" href="/form2" role="button">search</a>
+  </div>
+</div>
+{% endblock %}
